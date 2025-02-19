@@ -1,10 +1,8 @@
-# Getting Started With Google Chrome Extensions (Hello World)
-
-This example demonstrates how to create a simple "Hello World" Chrome Extension.
-For more details, visit the [official tutorial](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world).
-
-## Running This Extension
-
-1. Clone this repository.
-2. Load this directory in Chrome as an [unpacked extension](https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/#load-unpacked).
-3. Click the extension icon in the Chrome toolbar, then select the "Hello Extensions" extension. A popup will appear displaying the text "Hello Extensions".
+# Polleverywhere (pollev.com/{room}) Question Tracker
+To install, go to chrome::/extensions and click "Load unpacked" in the top left.
+Make sure you're in developer mode (top right) and then select the folder with 
+the source code.
+# USAGE
+Once on a polleverywhere page, you will see a red button that asks for audio
+permissions.  Select this to hear the alarm.  Once selected, anytime the question
+NAME changes, you will recieve an alarm.  It will play until STOP ALARM is pressed.
