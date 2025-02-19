@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "My Chrome Extension",
+  "name": "Polleverywhere Alarm",
   "version": "1.0",
-  "description": "A simple Chrome extension.",
+  "description": "Once given audio permission, grants the user an audible alarm when the question changes",
   "permissions": ["activeTab"],
   "content_scripts": [
     {
