@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "My Chrome Extension",
+  "version": "1.0",
+  "description": "A simple Chrome extension.",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "hello.html"
+  },
+  "host_permissions": [
+    "http://pollev.com/*",
+    "https://pollev.com/*"
+  ],
+  "web_accessible_resources": [{ 
+    "resources": ["alarm.mp3"],
+    "matches": ["<all_urls>"]
+  }]
+}
